@@ -208,3 +208,9 @@ footer {
       "tb-b";
   }
 }
+
+@media (min-width: 740px) and (max-width: 1000px) {
+  .boxes {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
